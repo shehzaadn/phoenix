@@ -472,11 +472,6 @@
         <version>${joni.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.clearspring.analytics</groupId>
-      <artifactId>stream</artifactId>
-      <version>${stream.version}</version>
-    </dependency>
-    <dependency>
       <groupId>com.ibm.icu</groupId>
       <artifactId>icu4j</artifactId>
       <version>59.1</version>

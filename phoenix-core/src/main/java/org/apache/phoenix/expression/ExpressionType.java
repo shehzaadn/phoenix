@@ -290,9 +290,6 @@ public enum ExpressionType {
     DayOfYearFunction(DayOfYearFunction.class),
     DefaultValueExpression(DefaultValueExpression.class),
     ArrayColumnExpression(SingleCellColumnExpression.class),
-    FirstValuesFunction(FirstValuesFunction.class),
-    LastValuesFunction(LastValuesFunction.class),
-    DistinctCountHyperLogLogAggregateFunction(DistinctCountHyperLogLogAggregateFunction.class),
     CollationKeyFunction(CollationKeyFunction.class);
 
     ExpressionType(Class<? extends Expression> clazz) {
